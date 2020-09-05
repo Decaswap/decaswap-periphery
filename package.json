@@ -47,7 +47,6 @@
     "compile": "waffle .waffle.json",
     "pretest": "yarn compile",
     "test": "mocha",
-    "prepublishOnly": "yarn test",
     "contract-size": "npx truffle run contract-size",
     "deploy-rinkeby": "npx truffle migrate --network rinkeby",
     "verify": "npx truffle run verify"
